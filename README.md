@@ -8,7 +8,12 @@
 3. User Experience
 4. Features
 5. Technologies Used
+6. Deployment
+7. Getting Started
+8. Credits
+9. Acknowledgements
 
+---
 
 ## Introduction
 ---
@@ -23,7 +28,15 @@ Therapia Counselling Service is an online therapy service for individuals seekin
 ## User Stories
 ---
 
-### First Time Visitors
+### User Goals
+
+#### First Time User
+
+#### Returning User
+
+## Business Goals
+
+---
 
 ## User Experience
 ---
@@ -38,6 +51,7 @@ Therapia Counselling Service is an online therapy service for individuals seekin
 #### Tablet
 
 #### Laptop/Desktop
+
 ---
 
 ## Features
@@ -67,9 +81,11 @@ Therapia Counselling Service is an online therapy service for individuals seekin
 
 ### Contact Page
 
+---
 
 ## Technologies Used
 ---
+
 ### Languages
 
 1. HTML
@@ -80,8 +96,9 @@ Therapia Counselling Service is an online therapy service for individuals seekin
 - CSS Grid
 
 ### Design Tools
-- Miro (link here): used to design the wireframes for the website.
-- Material Icons (link here):
+- [Miro]{https://miro.com/?gclsrc=aw.ds&utm_source=google&utm_medium=cpc&utm_campaign=S%7CGOO%7CBRN%7CUK%7CEN-EN%7CBrand%7CExact&utm_adgroup=&adgroupid=140324298625&utm_custom=18258206159&utm_content=668037264203&utm_term=miro&matchtype=e&device=c&location=1006848&gad_source=1&gclid=Cj0KCQjw3bm3BhDJARIsAKnHoVVmpdQ7at_R87EX2sjRF_OHaKYHl9g__zcQkENB1TRvSRukEze4CjQaAno4EALw_wcB}: used to design the wireframes for the Therapia Couselling Service website.
+- [Mateial Symbols icons](https://fonts.google.com/icons): used for icons across the website.
+- [Canva](https://www.canva.com/en_gb/): used to create the logo.
 
 ## Deployment
 ---
@@ -90,14 +107,18 @@ Therapia Counselling Service is an online therapy service for individuals seekin
 
 ###
 
-
-##Getting Started
+## Credits
 ---
 
-## Credits
 - Julia (mentor): README.md layout
-- [Natalie Atandare](...): Thank you to my therapist for giving me a safe space to grow - mentally and professionally.
+- [Therapia Counselling Service](https://www.therapiacounsellingservice.com/): For the general content.
+
+### Tutorials
+
 
 ## Acknowledgements
-- 
+---
+
+- Julia (mentor): README.md layout
+- [Natalie Atandare](...): Thank you to my therapist for giving me a safe space to grow - mentally and professionally.
 
