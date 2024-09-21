@@ -1,5 +1,5 @@
 # Milestone Project 1: Therapia Counselling Service 
----
+___
 
 ## Contents
 ---
@@ -23,7 +23,11 @@ The website is a reimagined version of my therapist's website for her counsellin
 
 ### Purpose
 
-Therapia Counselling Service is an online therapy service for individuals seeking treatment fort heir mental health challenges.
+Therapia Counselling Service is an online therapy service for individuals seeking a safe space to be vulnerable and talk through their mental health challenges and issues surrounding their lives.
+
+The site can be accessed via this [link](...).
+
+---
 
 ## User Stories
 ---
@@ -34,13 +38,26 @@ Therapia Counselling Service is an online therapy service for individuals seekin
 
 #### Returning User
 
-## Business Goals
+### Business Goals
 
 ---
 
 ## User Experience
 ---
 ### Color Scheme
+
+The color scheme was chosen to be calming and inviting for prospective clients.
+
+<img src="documentation/color-scheme/therapia-color-scheme.png" width="50%">
+
+- **FFFFFF 'White':**
+- **FDF5E6 'Old Lace':**
+- **C79A97 'Rosy Brown':**
+- **B47555 'Brown Sugar':**
+- **CCD8C0 'Biege':** pastel green color
+- **D9BFD9 'Thistle':** lilac color used for
+- **252422 'Eerie Black':** black color used for the overall text of the website.
+
 
 ### Typography
 
@@ -96,22 +113,38 @@ Therapia Counselling Service is an online therapy service for individuals seekin
 - CSS Grid
 
 ### Design Tools
-- [Miro]{https://miro.com/?gclsrc=aw.ds&utm_source=google&utm_medium=cpc&utm_campaign=S%7CGOO%7CBRN%7CUK%7CEN-EN%7CBrand%7CExact&utm_adgroup=&adgroupid=140324298625&utm_custom=18258206159&utm_content=668037264203&utm_term=miro&matchtype=e&device=c&location=1006848&gad_source=1&gclid=Cj0KCQjw3bm3BhDJARIsAKnHoVVmpdQ7at_R87EX2sjRF_OHaKYHl9g__zcQkENB1TRvSRukEze4CjQaAno4EALw_wcB}: used to design the wireframes for the Therapia Couselling Service website.
-- [Mateial Symbols icons](https://fonts.google.com/icons): used for icons across the website.
+---
 - [Canva](https://www.canva.com/en_gb/): used to create the logo.
+- [Coolors](https://coolors.co/): used to create the color scheme for the website.
+- [Miro](https://miro.com/?gclsrc=aw.ds&utm_source=google&utm_medium=cpc&utm_campaign=S%7CGOO%7CBRN%7CUK%7CEN-EN%7CBrand%7CExact&utm_adgroup=&adgroupid=140324298625&utm_custom=18258206159&utm_content=668037264203&utm_term=miro&matchtype=e&device=c&location=1006848&gad_source=1&gclid=Cj0KCQjw3bm3BhDJARIsAKnHoVVmpdQ7at_R87EX2sjRF_OHaKYHl9g__zcQkENB1TRvSRukEze4CjQaAno4EALw_wcB): used to design the wireframes for the Therapia Couselling Service website.
+- [Mateial Symbols icons](https://fonts.google.com/icons): used for icons across the website.
+- 
 
 ## Deployment
 ---
 
 ### Deployment to GitHub Pages
 
-###
+### Local Deployment
 
 ## Credits
 ---
 
 - Julia (mentor): README.md layout
 - [Therapia Counselling Service](https://www.therapiacounsellingservice.com/): For the general content.
+
+### Media
+
+Images used were taken from [Unsplash](https://unsplash.com/) and [Pexels](https://www.pexels.com/).
+
+- Home:
+    + [Hero image](https://www.pexels.com/photo/crop-black-man-speaking-with-psychologist-5699434/);
+    + [Footer image](https://unsplash.com/photos/white-petaled-flowers-in-focus-photography-XKD2xQ7fbKc).
+
+- Services:
+    + 
+    +
+
 
 ### Tutorials
 
