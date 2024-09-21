@@ -95,7 +95,8 @@ Therapia Counselling Service is an online therapy service for individuals seekin
 ---
 
 ## Credits
-README.md layout
+- Julia (mentor): README.md layout
+- [Natalie Atandare](...): Thank you to my therapist for giving me a safe space to grow - mentally and professionally.
 
 ## Acknowledgements
 - 
