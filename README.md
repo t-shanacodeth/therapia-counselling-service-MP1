@@ -130,7 +130,8 @@ The color scheme was chosen to be calming and inviting for prospective clients.
 ## Credits
 ---
 
-- Julia (mentor): README.md layout
+- Julia (mentor): advise for general README.md structure.
+- [Educative.io](https://www.educative.io/answers/how-to-change-image-size-in-markdown): referred to when figuring out how to resize images in Markdown.
 - [Therapia Counselling Service](https://www.therapiacounsellingservice.com/): For the general content.
 
 ### Media
