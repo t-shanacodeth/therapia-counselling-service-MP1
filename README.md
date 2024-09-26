@@ -134,6 +134,10 @@ The color scheme was chosen to be calming and inviting for prospective clients.
 - [Educative.io](https://www.educative.io/answers/how-to-change-image-size-in-markdown): referred to when figuring out how to resize images in Markdown.
 - [Therapia Counselling Service](https://www.therapiacounsellingservice.com/): For the general content.
 
+### General CSS
+- [Stack Overflow](https://stackoverflow.com/)
+- MDN Web Docs: HTML and [CSS](https://developer.mozilla.org/en-US/docs/Web/CSS)
+
 ### Media
 
 Images used were taken from [Unsplash](https://unsplash.com/) and [Pexels](https://www.pexels.com/).
