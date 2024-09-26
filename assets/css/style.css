@@ -6,11 +6,27 @@
     box-sizing: border-box;
 }
 
+body {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    color: #252422;
+}
+
+a {
+    text-decoration: none;
+    color: #252422;
+
+}
+
+a:visited {
+    color: #252422;
+}
+
 /* ----------------------------------------------------- BACKGROUNDS ------------- */
 
 header, 
 footer {
-    background-color: rgb(253, 245, 230);
+    background-color: rgba(253, 245, 230, 0.5);
 }
 
 #benefits-section {
@@ -25,14 +41,78 @@ footer {
     background-color: rgba(217, 191, 217, 0.5);
 }
 
-
-/* ----------------------------------------------------- BODY ------------- */
-
-
 /* ----------------------------------------------------- HEADER ------------- */
+
+header {
+    padding-left: 50px;
+    padding-right: 75px;
+    display: flex;
+}
+
+header div {
+    width: 65%;
+}
+
+#logo img {
+    height: 150px;
+    width: 150px;
+   
+}
+
+nav {
+    font-weight: 600;
+    width: 35%;
+     display: flex;
+    align-items: center;
+}
+
+#nav-links {
+    justify-content: space-between;
+    letter-spacing: .1rem;
+}
+
+#nav-links a {
+    padding: 5px 10px;
+    font-size: 15px;
+}
+
+#nav-links a:hover {
+    color: #B47555;
+}
+
+.active {
+    border: 1px solid #B47555;
+    border-radius: 2px;
+}
+
+#nav-links button {
+    border: 1px solid #B47555;
+    background-color: #B47555;
+    padding: 5px 25px;
+    font-family: inherit;
+    font-size: 15px;
+    color: #fff;
+    font-weight: inherit;
+    letter-spacing: inherit;
+    border-radius: 2px;
+    transition: transform .4s ease-in-out;
+    /* box-shadow: ; */
+}
+
+#nav-links button:hover {
+    transform: scale(1.03);
+    border: 1px solid #B47555;
+    background-color: #fff;
+    color: #B47555;
+    cursor: pointer;
+} 
 
 
 /* ----------------------------------------------------- MAIN ------------- */
+
+#hero-section {
+    
+}
 
 
 
