@@ -49,30 +49,29 @@ header {
     display: flex;
 }
 
-header div {
-    width: 75%;
+header div, nav {
+    width: 80%;
 }
 
 #logo img {
-    height: 150px;
-    width: 150px;
-   
+    height: 180px;
+    width: 180px;
 }
 
 nav {
     font-weight: 600;
-    width: 25%;
-     display: flex;
+    display: flex;
     align-items: center;
 }
 
 #nav-links {
-    justify-content: space-between;
+    justify-content: flex-end;
     letter-spacing: .1rem;
 }
 
 #nav-links a {
     padding: 5px 10px;
+    margin-left: 45px;
     font-size: 15px;
 }
 
@@ -89,6 +88,7 @@ nav {
     border: 1px solid #B47555;
     background-color: #B47555;
     padding: 5px 25px;
+    margin-left: 45px;
     font-family: inherit;
     font-size: 15px;
     color: #fff;
