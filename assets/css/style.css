@@ -128,21 +128,20 @@ nav {
 
 h1 {
     font-family: "Abril Fatface", serif;
-    font-size: 4rem;
+    font-size: 4.25rem;
     padding: 20px;
 }
 
 .hero-paragraph {
     margin-top: 40px;
-    margin-bottom: 6%;
-    
+    margin-bottom: 8%;
+    font-size: 1.28rem;
 }
 
 .free-consultation {
-    border: 1px solid #B47555;
+    border: 2px solid #B47555;
     background-color: #B47555;
-    padding: 5px 25px;
-    margin-left: 45px;
+    padding: 10px 45px;
     font-family: inherit;
     font-size: 16px;
     color: #fff;
