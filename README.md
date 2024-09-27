@@ -140,10 +140,8 @@ The color scheme was chosen to be calming and inviting for prospective clients.
 
 ### Media
 
-Images used were taken from [Unsplash](https://unsplash.com/) and [Pexels](https://www.pexels.com/).
-
 - Home:
-    + [Hero image](https://www.pexels.com/photo/crop-black-man-speaking-with-psychologist-5699434/);
+    + [Hero image](https://www.clinical-partners.co.uk/images/therapies/talking-therapies-hero.jpg): Clinical Partners talk therapy [website](https://www.clinical-partners.co.uk/for-adults/talking-therapy);
     + [Footer image](https://unsplash.com/photos/white-petaled-flowers-in-focus-photography-XKD2xQ7fbKc).
 
 - Services:
@@ -152,6 +150,7 @@ Images used were taken from [Unsplash](https://unsplash.com/) and [Pexels](https
 
 
 ### Tutorials
++ [Snap Tutorials](https://www.youtube.com/watch?v=WsF9_2h4K34): Points on how to use flex box for a navbar.
 
 
 ## Acknowledgements
