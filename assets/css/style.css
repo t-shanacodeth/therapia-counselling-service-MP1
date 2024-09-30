@@ -41,7 +41,7 @@ footer {
 
 #benefits-section {
     background-color: rgba(199, 154, 151, 0.5);
-    /* min-height: em; */
+    min-height: 75em;
 }
 
 #about-section {
@@ -124,7 +124,6 @@ nav {
     margin: 0 auto;
     text-align: center;
     padding-top: 150px;
-    max-width: 90%;
 }
 
 h1 {
@@ -181,38 +180,41 @@ h2 {
 }
 
 #benefits-cards {
-    max-width: 90%;
+    max-width: 80%;
     margin: 0 auto;
-    padding-left: 30px;
-    padding-right: 30px;
     display: grid;
     gap: 2rem;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(3, 300px);
     grid-template-rows: repeat(2, 1fr);
     line-height: 1.5;
 }
 
 .card {
-    background-color: lightcoral;
+    background-color: white;
     border-radius: 4px;
     padding: 10px 15px;
 }
 
 .benefits-card-image {
-
+    overflow: hidden;
+    border-radius: 4px;
 }
+
+.benefits-card-image img{
+    max-width: 300px;
+    max-height: 200px;
+    display: block;
+    margin: 0 auto;
+}
+
  h4 {
-    padding-top: 2.5px;
-    padding-bottom: 10px;
+    padding-top: 10px;
+    padding-bottom: 15px;
  }
 
 .benefits-card-content > p {
     font-size: 15px;
-    
 }
-
-
-
 
 /* ----------------------------------------------------- FOOTER ------------- */
 
