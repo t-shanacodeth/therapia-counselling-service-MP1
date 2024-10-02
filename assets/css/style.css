@@ -54,6 +54,10 @@ footer {
     min-height: 32em;
 }
 
+#client-stories-section {
+    min-height: 112em;
+}
+
 /* ----------------------------------------------------- HEADER ------------- */
 
 header {
@@ -150,6 +154,8 @@ h1 {
     letter-spacing: inherit;
     border-radius: 4px;
     transition: transform .3s ease-in-out;
+    box-shadow: 0px 0px 10px 6px rgba(180, 117, 85, 0.2);
+
 }
 
 .free-consultation:hover {
@@ -158,9 +164,11 @@ h1 {
     background-color: #fff;
     color: #B47555;
     cursor: pointer;
+    box-shadow: 0px 0px 10px 6px rgba(180, 117, 85, 0.25);
 } 
 
-.benefits-header {
+.benefits-header,
+.client-header {
     margin: 0 auto;
     padding-top: 50px;
     padding-bottom: 60px;
@@ -175,7 +183,8 @@ h2 {
     padding-bottom: 35px;
 }
 
-.benefits-header p {
+.benefits-header p,
+.client-header p {
     font-size: 15px;
     font-weight: 500;
 }
@@ -195,6 +204,7 @@ h2 {
     background-color: white;
     border-radius: 4px;
     padding: 10px 15px;
+    box-shadow: 0px 0px 23px 6px rgba(199, 154, 151, 0.4);
 }
 
 .benefits-card-image {
@@ -222,7 +232,7 @@ h2 {
     margin: 0 auto;
     padding-top: 50px;
     text-align: center;
-    max-width: 90%;
+    max-width: 80%;
 }
 
 .specialities-content {
@@ -239,7 +249,7 @@ h2 {
     margin-left: 100px;
     font-size: 16px;
 }
-
+    
 .specialities-image-container {
     background: url(../images/home/specialities-image.jpg) no-repeat;
     background-size: cover;
@@ -247,6 +257,7 @@ h2 {
     text-align: center;
     border-radius: 4px;
     margin: 0 auto;
+    box-shadow: 0px 0px 23px 6px rgba(217, 191, 217, 0.4);
 }
 
 .specialities-quote {
@@ -277,7 +288,42 @@ h2 {
     color: #C79A97;
 }
 
+.client-container {
+    max-width: 80%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 3.5rem;
+    line-height: 1.5;
+    font-size: 14px;
+}
+
+.outer-box {
+ background-color: rgba(204, 216, 192, 0.75);
+ box-shadow: 0px 0px 6px 10px rgba(204, 216, 192, 0.16);
+ padding: 25px;
+ border-radius: 4px;
+ 
+}
+
+.inner-box {
+    border: 2.5px solid #C79A97;
+    padding: 5px 15px;
+    border-radius: 4px;
+}
+
+.client-container i {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    margin: 20px 0 15px 10px;
+    background-color: #D9BFD9;
+}
 
 
 /* ----------------------------------------------------- FOOTER ------------- */
 
+.footer-image img {
+    height: 80px;
+    
+}
