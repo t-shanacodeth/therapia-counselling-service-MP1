@@ -249,10 +249,15 @@ h2 {
     margin-left: 100px;
     font-size: 16px;
 }
+
+.specialities-list > ul {
+    list-style-type: "+ ";
+}
     
 .specialities-image-container {
     background: url(../images/home/specialities-image.jpg) no-repeat;
     background-size: cover;
+    background-position: center;
     padding: 60px 50px;
     text-align: center;
     border-radius: 4px;
@@ -279,7 +284,7 @@ h2 {
     margin: 8px auto 5px auto;
     border: none;
     height: 2px;
-    background-color: rgba(199, 154, 151);
+    background-color: rgb(199, 154, 151);
 }
 
 .quote-author {
@@ -300,7 +305,7 @@ h2 {
 
 .outer-box {
  background-color: rgba(204, 216, 192, 0.75);
- box-shadow: 0px 0px 6px 10px rgba(204, 216, 192, 0.16);
+ box-shadow: 0px 0px 18px 8px rgba(204, 216, 192, 0.16);
  padding: 25px;
  border-radius: 4px;
  
@@ -323,7 +328,80 @@ h2 {
 
 /* ----------------------------------------------------- FOOTER ------------- */
 
-.footer-image img {
-    height: 80px;
-    
+.footer-image {
+    background: url(../images/home/home-footer-image.jpg) no-repeat;
+    background-size: cover;
+    background-position: bottom left; 
+    min-width: 100%;
+    height: 6rem;
+}
+
+.footer-img-bg {
+    width: inherit;
+    height: inherit;
+    background-color: rgba(199, 154, 151, 0.4);
+}
+
+.footer-container {
+    display: grid;
+    grid-template-columns: 1.5fr 1fr 1fr;
+    gap: 2rem;
+    align-items: center;
+    justify-items: center;
+    text-align: center;
+    padding: 55px 0px 40px 0px;
+}
+
+.footer-container hr {
+    width: 1.5rem;
+    height: 2px;
+    margin: 6px auto;
+    border: none;
+    background-color: #B47555;
+}
+
+.footer-logo {
+    font-size: x-small;
+}
+
+.footer-logo > img {
+    width: 225px;
+    height: 225px;
+}
+
+.footer-logo strong,
+h5 {
+    font-family: "EB Garamond", serif;
+}
+
+.footer-menu,
+.social-links {
+    line-height: 2.25;
+}
+
+h5 {
+    font-size: 15px;
+    letter-spacing: .1rem;
+}
+
+.footer-menu > ul,
+.social-links > ul {
+    line-height: 2.25;
+    font-size: small;
+    list-style-type: none;
+}
+
+.footer-container ~ hr {
+    border: none;
+    background-color: #B47555;
+    width: 60%;
+    height: 1px;
+    margin: 5px auto;
+}
+
+footer > span {
+    display: block;
+    font-size: x-small;
+    text-align: center;
+    padding: 10px 0px 15px 0px;
 }
