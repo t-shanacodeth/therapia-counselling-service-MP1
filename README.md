@@ -40,7 +40,6 @@ The site can be accessed via this [link](...).
 
 ### Business Goals
 
----
 
 
 ## User Experience (UX)
@@ -52,13 +51,15 @@ The color scheme was chosen to be calming and inviting for prospective clients.
 
 <img src="documentation/color-scheme/therapia-color-scheme.png" width="50%">
 
-- **FFFFFF 'White':**
-- **FDF5E6 'Old Lace':**
-- **C79A97 'Rosy Brown':**
-- **B47555 'Brown Sugar':**
-- **CCD8C0 'Biege':** pastel green color
-- **D9BFD9 'Thistle':** lilac color used for
-- **252422 'Eerie Black':** black color used for the overall text of the website.
+- **#FFFFFF:**
+- **#FDF5E6:**
+- **#DE5D83:** Blush pink color to stand out against the rest of the color scheme so that users could easily see the        back-to-top button.
+- **##C15071:** Darker pink color
+- **#C79A97:**
+- **#B47555:**
+- **#CCD8C0 'Biege':** pastel green color
+- **#D9BFD9 'Thistle':** lilac color used for
+- **#252422 'Eerie Black':** black color used for the overall text of the website.
 
 
 ### Typography
@@ -105,7 +106,6 @@ The color scheme was chosen to be calming and inviting for prospective clients.
 
 
 ## Technologies Used
----
 
 ### Languages
 
@@ -117,16 +117,6 @@ The color scheme was chosen to be calming and inviting for prospective clients.
 
 3. JavaScript: required for Font Awesome to be embedded into the HTML document.
 
-
-### Design Tools
-
-
-- [Canva](https://www.canva.com/en_gb/): used to create the logo.
-- [Coolors](https://coolors.co/): used to create the color scheme for the website.
-- [Miro](https://miro.com/?gclsrc=aw.ds&utm_source=google&utm_medium=cpc&utm_campaign=S%7CGOO%7CBRN%7CUK%7CEN-EN%7CBrand%7CExact&utm_adgroup=&adgroupid=140324298625&utm_custom=18258206159&utm_content=668037264203&utm_term=miro&matchtype=e&device=c&location=1006848&gad_source=1&gclid=Cj0KCQjw3bm3BhDJARIsAKnHoVVmpdQ7at_R87EX2sjRF_OHaKYHl9g__zcQkENB1TRvSRukEze4CjQaAno4EALw_wcB): used to design the wireframes for the Therapia Couselling Service website.
-- [Font Awesome](https://fontawesome.com/icons): used for icons across the website.
-
-
 ## Deployment
 
 
@@ -135,7 +125,6 @@ The color scheme was chosen to be calming and inviting for prospective clients.
 ### Local Deployment
 
 ## Credits
----
 
 - Julia (mentor): advise for general README.md structure;
 - [Educative.io](https://www.educative.io/answers/how-to-change-image-size-in-markdown): referred to when figuring out how to resize images in Markdown;
@@ -175,13 +164,22 @@ The color scheme was chosen to be calming and inviting for prospective clients.
     + 
     + 
 
+### Design Tools
+
+- [Canva](https://www.canva.com/en_gb/): used to create the logo.
+- [Coolors](https://coolors.co/): used to create the color scheme for the website.
+- [Miro](https://miro.com/?gclsrc=aw.ds&utm_source=google&utm_medium=cpc&utm_campaign=S%7CGOO%7CBRN%7CUK%7CEN-EN%7CBrand%7CExact&utm_adgroup=&adgroupid=140324298625&utm_custom=18258206159&utm_content=668037264203&utm_term=miro&matchtype=e&device=c&location=1006848&gad_source=1&gclid=Cj0KCQjw3bm3BhDJARIsAKnHoVVmpdQ7at_R87EX2sjRF_OHaKYHl9g__zcQkENB1TRvSRukEze4CjQaAno4EALw_wcB): used to design the wireframes for the Therapia Couselling Service website.
+- [Font Awesome](https://fontawesome.com/icons): used for icons across the website.
+- [Box Shadow](https://box-shadow.dev/): used to generate the code used for the box shadows based on the desired adjustments.
+- [Rapid Tables](https://www.rapidtables.com/convert/color/hex-to-rgb.html?hex=c79a97): used to translate HEX codes to RGB for the font, background and box shadow colors.
+
 
 ### Tutorials
-+ [Snap Tutorials](https://www.youtube.com/watch?v=WsF9_2h4K34): Points on how to use flex box for a navbar.
+- [Snap Tutorials](https://www.youtube.com/watch?v=WsF9_2h4K34): advice on how to use flex box for a navbar.
+- [Tyler Potts YouTube Channel](https://www.youtube.com/watch?v=fYGe-SuFAHU): used for "back-to-top" button.
 
 
 ## Acknowledgements
----
 
 - Julia (mentor): README.md layout
 - [Natalie Atandare](...): Thank you to my therapist for giving me a safe space to grow - mentally and professionally.
