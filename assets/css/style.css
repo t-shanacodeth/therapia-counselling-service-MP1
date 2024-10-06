@@ -402,6 +402,39 @@ h2 {
     background-color: #D9BFD9;
 }
 
+/* Back to Top - Credit: Tyler Potts */
+
+html {
+    scroll-behavior: smooth;
+}
+
+.back-to-top {
+    position: fixed;
+    bottom: 2rem;
+    right: 2rem;
+    display: inline-flex;
+    align-items: center;
+    justify-items: center;
+    background-color: #DE5D83;
+    padding: 0.5rem;
+    border-radius: 4px;
+    transition: 0.2s ease-out;
+}
+
+.back-to-top:hover {
+    background-color: #c15071;
+}
+
+.back-to-top > i {
+    color: #FDF5E6;
+    font-size: 1.2rem;
+    transition: 0.2s ease-out;
+}
+
+.back-to-top > i:hover {
+    transform: translateY(-2px);
+}
+
 /* ----------------------------------------------------- FOOTER ------------- */
 
 .footer-image {
