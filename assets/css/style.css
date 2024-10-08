@@ -51,6 +51,8 @@ footer {
     background-color: rgba(217, 191, 217, 0.3);
 }
 
+
+
 /* ----------------------------------------------------- HEADER ------------- */
 
 header {
@@ -309,6 +311,7 @@ h2 {
 .learn-more:hover {
     background-color: #fff;
     color: #D9BFD9;
+    cursor: pointer;
 }
 
 /* What I Can Help With Section */
@@ -424,7 +427,59 @@ h2 {
 
 /* Services */
 
+/* CAN'T GET THE BACKGROUND TO SHOW AND SPLIT THE COLOR */
+.top-bg {
+    width: 100vw;
+    height: 30vh;
+    background-color: #C79A97;
+    position: absolute;
+}
 
+.bottom-bg {
+    width: 100%;
+    height: 70%;
+    background-color: #D9BFD9;
+    position: absolute;
+}
+
+.services-content {
+    width: 60%;
+    border: 3px solid #D9BFD9;
+    padding: 3.5rem 8rem;
+    margin: 0 auto 6rem auto;
+    line-height: 1.5;
+    font-size: 14px;
+}
+
+.services-content strong {
+    font-weight: 600;
+    display: inline-block;
+    padding-bottom: 5px;
+}
+
+.services-content p {
+    padding-bottom: 1rem;
+}
+
+h3 {
+    font-weight: 500;
+    line-height: 3;
+    text-align: center;
+    font-size: 18.72px;
+}
+
+.services-separater {
+    border: none;
+    background-color: #D9BFD9;
+    height: 5px;
+    width: 65%;
+    margin: 20px auto 10px auto;
+}
+
+/* NEED HELP CENTERING THE BUTTON */
+.service-btn {
+    
+}
 
 /* Back to Top - Credit: Tyler Potts */
 
