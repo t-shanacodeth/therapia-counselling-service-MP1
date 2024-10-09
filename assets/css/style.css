@@ -212,7 +212,7 @@ h2 {
 #benefits-cards {
     max-width: 80%;
     margin: 0 auto;
-    padding-bottom: 120px;
+    padding-bottom: 100px;
     display: grid;
     gap: 3.5rem;
     grid-template-columns: repeat(3, 300px);
@@ -327,7 +327,7 @@ h2 {
 .specialities-content {
     max-width: 90%;
     margin: 0 auto;
-    padding-bottom: 105px;
+    padding-bottom: 75px;
     display: grid;
     grid-template-columns: 500px 400px;
     align-items: center;
@@ -369,7 +369,7 @@ h2 {
     margin-bottom: 15px;
 }
 
-.specialities-quote hr {
+.quote ~ hr {
     width: 20%;
     margin: 8px auto 5px auto;
     border: none;
@@ -388,7 +388,7 @@ h2 {
 .client-container {
     max-width: 80%;
     margin: 0 auto;
-    padding-bottom: 115px;
+    padding-bottom: 100px;
     display: grid;
     grid-template-columns: 1fr;
     gap: 3.5rem;
@@ -479,6 +479,12 @@ h3 {
 /* NEED HELP CENTERING THE BUTTON */
 .service-btn {
     
+}
+
+/* Contact */
+
+.contact-wrapper {
+    min-width: 80%;
 }
 
 /* Back to Top - Credit: Tyler Potts */
