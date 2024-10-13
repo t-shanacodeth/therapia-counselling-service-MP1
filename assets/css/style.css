@@ -10,6 +10,12 @@ body {
     font-family: "Montserrat", sans-serif;
     font-weight: 400;
     color: #252422;
+    display: flex;
+    flex-direction: column;
+    background-color: aquamarine;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
 }
 
 a {
@@ -32,11 +38,12 @@ footer {
 #hero-section {
     background: url(https://www.clinical-partners.co.uk/images/therapies/talking-therapies-hero.jpg) no-repeat;
     background-size: cover;
-    min-height: 50em;
+    width: 100%;
 }
 
 .hero-text {
     background-color: rgba(253, 245, 230, 0.3);
+    padding-bottom: 5vh;
 }
 
 #benefits-section {
@@ -51,18 +58,24 @@ footer {
     background-color: rgba(217, 191, 217, 0.3);
 }
 
+#services-bg {
+    background-color: rgba(204, 216, 192, 0.6);
+    padding-top: 40px;
+    padding-bottom: 100px;
+}
+
 
 
 /* ----------------------------------------------------- HEADER ------------- */
 
 header {
-    padding-left: 75px;
-    padding-right: 90px;
+    width: 100%;
     display: flex;
-}
-
-header div, nav {
-    width: 80%;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 70px;
+    padding-right: 75px;
+    overflow: auto;
 }
 
 #logo img {
@@ -72,13 +85,7 @@ header div, nav {
 
 nav {
     font-weight: 600;
-    display: flex;
-    align-items: center;
-}
-
-#nav-links {
-    justify-content: flex-end;
-    letter-spacing: .1rem;
+    letter-spacing: 0.1rem;
 }
 
 #nav-links a {
@@ -89,11 +96,6 @@ nav {
 
 #nav-links a:hover {
     color: #B47555;
-}
-
-.active {
-    border: 1px solid #B47555;
-    border-radius: 4px;
 }
 
 #nav-links button {
@@ -138,6 +140,34 @@ nav {
 
 /* ----------------------------------------------------- MAIN ------------- */
 
+main {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.section-header {
+    margin: 0 auto;
+    padding-top: 80px;
+    padding-bottom: 35px;
+    text-align: center;
+    line-height: 1.5;
+    max-width: 80%;
+}
+
+.main-section-heading {
+    font-family: "EB Garamond", serif;
+    font-size: 40px;
+    padding-bottom: 35px;
+}
+
+.main-section-heading p {
+    font-size: 15px;
+    font-weight: 500;
+}
+
 /* Hero Section */
 
 .hero-text {
@@ -149,8 +179,8 @@ nav {
 
 h1 {
     font-family: "Abril Fatface", serif;
-    font-size: 3.5rem;
-    padding: 20px;
+    font-size: 3rem;
+    padding: 3vh 2vw;
 }
 
 .hero-paragraph {
@@ -185,43 +215,26 @@ h1 {
 
 /* Benefits of Therapy Section */
 
-.benefits-header,
-.client-header,
-.services-header {
-    margin: 0 auto;
-    padding-top: 80px;
-    padding-bottom: 50px;
-    text-align: center;
-    line-height: 1.5;
-    max-width: 80%;
-}
-
-h2 {
-    font-family: "EB Garamond", serif;
-    font-size: 40px;
-    padding-bottom: 35px;
-}
-
-.benefits-header p,
-.client-header p,
-.services-header p {
-    font-size: 15px;
-    font-weight: 500;
-}
-
 #benefits-cards {
-    max-width: 80%;
+    width: 80%;
     margin: 0 auto;
     padding-bottom: 100px;
-    display: grid;
-    gap: 3.5rem;
-    grid-template-columns: repeat(3, 300px);
-    grid-template-rows: repeat(2, 1fr);
+    display: flex;
+    flex-direction: column;
     justify-content: center;
+    row-gap: 2.5rem;
     line-height: 1.5;
+}
+
+.card-row {
+    display: inline-flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
 }
 
 .card {
+    width: 30%;
     background-color: white;
     border-radius: 14px;
     padding: 10px 15px;
@@ -240,7 +253,8 @@ h2 {
     margin: 0 auto;
 }
 
- h4 {
+ .card-headings {
+    font-size: 16px;
     padding-top: 10px;
     padding-bottom: 15px;
  }
@@ -304,34 +318,33 @@ h2 {
     font-family: inherit;
     font-size: 14px;
     font-weight: 500;
-    
     transition: background-color .2s ease-in-out;
 }
 
 .learn-more:hover {
     background-color: #fff;
-    color: #D9BFD9;
     cursor: pointer;
 }
 
 /* What I Can Help With Section */
 
-.specialities-header {
-    margin: 0 auto;
-    padding-top: 80px;
-    padding-bottom: 28px;
-    text-align: center;
-    max-width: 80%;
+#specialities-section {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .specialities-content {
-    max-width: 90%;
+    width: 80%;
     margin: 0 auto;
-    padding-bottom: 75px;
-    display: grid;
-    grid-template-columns: 500px 400px;
+    justify-content: center;
     align-items: center;
-    gap: 12rem;
+    padding-bottom: 75px;
+    display: flex;
+    flex-wrap: wrap-reverse;
+    gap: 5vw;
     line-height: 1.5;
 }
 
@@ -386,14 +399,14 @@ h2 {
 /* Client Stories */
 
 .client-container {
-    max-width: 80%;
+    width: 80%;
     margin: 0 auto;
     padding-bottom: 100px;
-    display: grid;
-    grid-template-columns: 1fr;
-    gap: 3.5rem;
+    display: flex;
+    flex-direction: column;
     line-height: 1.5;
     font-size: 14px;
+    gap: 2.5rem;
 }
 
 .transform-1 {
@@ -425,47 +438,20 @@ h2 {
     background-color: #D9BFD9;
 }
 
-/* Services */
-
-/* CAN'T GET THE BACKGROUND TO SHOW AND SPLIT THE COLOR */
-.top-bg {
-    width: 100vw;
-    height: 30vh;
-    background-color: #C79A97;
-    position: absolute;
-}
-
-.bottom-bg {
-    width: 100%;
-    height: 70%;
-    background-color: #D9BFD9;
-    position: absolute;
-}
+/* Services Main */
 
 .services-content {
     width: 60%;
     border: 3px solid #D9BFD9;
-    padding: 3.5rem 8rem;
-    margin: 0 auto 6rem auto;
+    padding: 5vh 8vw;
+    margin: 50px auto;
     line-height: 1.5;
     font-size: 14px;
+    background-color: #fff;
 }
 
-.services-content strong {
-    font-weight: 600;
-    display: inline-block;
-    padding-bottom: 5px;
-}
-
-.services-content p {
-    padding-bottom: 1rem;
-}
-
-h3 {
-    font-weight: 500;
-    line-height: 3;
+.services-heading {
     text-align: center;
-    font-size: 18.72px;
 }
 
 .services-separater {
@@ -474,11 +460,6 @@ h3 {
     height: 5px;
     width: 65%;
     margin: 20px auto 10px auto;
-}
-
-/* NEED HELP CENTERING THE BUTTON */
-.service-btn {
-    
 }
 
 /* Contact */
@@ -522,63 +503,21 @@ html {
 
 /* ----------------------------------------------------- FOOTER ------------- */
 
-/* Home */
+/* General Footer Styling */
 
-.footer-banner-home {
-    background: url(../images/home/home-footer-image.jpg) no-repeat;
-    background-size: cover;
-    background-position: bottom left; 
-    min-width: 100%;
-    height: 6rem;
+footer {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
 }
-
-.footer-img-bg-home {
-    width: inherit;
-    height: inherit;
-    background-color: rgba(199, 154, 151, 0.4);
-}
-
-/* Services */
-
-.footer-banner-services {
-    background: url(../images/services/service-footer-img-2.jpg) no-repeat;
-    background-size: cover;
-    background-position: center; 
-    min-width: 100%;
-    height: 6rem;
-}
-
-.footer-img-bg-services {
-    width: inherit;
-    height: inherit;
-}
-
-/* Contact */
-
-.footer-banner-contact {
-    background-color: rgba(204, 216, 192, 0.6);
-    min-width: 100%;
-    height: 6rem;
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    justify-items: center;
-    align-items: center;
-    padding-right: 20px;
-}
-
-.motivation {
-    font-family: "EB Garamond", serif;
-    font-size: 20px;
-}
-
-/* General */
 
 .footer-container {
-    display: grid;
-    grid-template-columns: 1.5fr 1fr 1fr;
-    gap: 2rem;
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
     align-items: center;
-    justify-items: center;
     text-align: center;
     padding: 55px 0px 40px 0px;
 }
@@ -636,3 +575,47 @@ footer > span {
     text-align: center;
     padding: 10px 0px 15px 0px;
 }
+
+/* Home */
+
+.footer-banner-home {
+    background: url(../images/home/home-footer-image.jpg) no-repeat;
+    background-size: cover;
+    background-position: bottom left; 
+    height: 10vh;
+    width: 100%;
+}
+
+.footer-img-bg-home {
+    width: inherit;
+    height: inherit;
+    background-color: rgba(199, 154, 151, 0.4);
+}
+
+/* Services */
+
+.footer-banner-services {
+    background: url(../images/services/service-footer-img-2.jpg) no-repeat;
+    background-size: cover;
+    background-position: center; 
+    width: 100%;
+    height: 10vh;
+}
+/* Contact */
+
+.footer-banner-contact {
+    background-color: rgba(204, 216, 192, 0.6);
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.motivation {
+    font-family: "EB Garamond", serif;
+    font-size: 20px;
+}
+
+
+
