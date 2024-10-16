@@ -65,6 +65,10 @@ footer {
     padding-bottom: 8vh;
 }
 
+#response-bg {
+    background-color: rgba(199, 154, 151, 0.25);
+    padding-bottom: 10vh;
+}
 
 
 /* ----------------------------------------------------- HEADER ------------- */
@@ -143,7 +147,6 @@ nav {
 
 main {
     width: 100%;
-    min-height: 90vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -570,6 +573,16 @@ input[type=reset]:hover {
     cursor: pointer;
 }
 
+/* Response Main */
+
+.response-container {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
 /* Back to Top - Credit: Tyler Potts */
 
 html {
@@ -689,7 +702,7 @@ footer > span {
     background: url(../images/home/home-footer-image.jpg) no-repeat;
     background-size: cover;
     background-position: bottom left; 
-    height: 10vh;
+    height: 15vh;
     width: 100%;
 }
 
@@ -706,7 +719,7 @@ footer > span {
     background-size: cover;
     background-position: center; 
     width: 100%;
-    height: 10vh;
+    height: 15vh;
 }
 
 /* Contact Footer*/
@@ -714,7 +727,7 @@ footer > span {
 .footer-banner-contact {
     background-color: rgba(204, 216, 192, 0.6);
     width: 100%;
-    min-height: 10vh;
+    min-height: 15vh;
     padding: 2vh;
     display: flex;
     justify-content: space-around;
@@ -723,10 +736,24 @@ footer > span {
 
 .motivation p {
     font-family: "EB Garamond", serif;
-    font-size: 1rem;
+    font-size: 1.5rem;
 }
 
+/* Response Footer */
 
+.footer-banner-response {
+    background: url(https://images.pexels.com/photos/1128797/pexels-photo-1128797.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2) no-repeat;
+    background-size: cover;
+    background-position: bottom center; 
+    height: 15vh;
+    width: 100%;
+}
+
+.footer-img-bg-response {
+    width: inherit;
+    height: inherit;
+    background-color: rgba(199, 154, 151, 0.4);
+}
 
 /* ----------------------------------------------------- MEDIA QUERIES ------------- */
 
@@ -744,25 +771,11 @@ footer > span {
     .services-content {
         width: 80%;
     }
-
-    /* Contact */
-    
-     .contact-column {
-        display: flex;
-        flex-wrap: wrap;
-        row-gap: 15px;
-    } 
-
-    /* Footer */
-
-    .footer-banner-contact,
-    .footer-container {
-        flex-direction: column;
-        row-gap: 25px;
-    }
 } 
 
 @media screen and (max-width: 875px) {
+
+    /* Home */
     #benefits-cards {
         display: flex;
         flex-direction: column;
@@ -773,6 +786,14 @@ footer > span {
         padding: 25px 20px;
         font-size: 2.5rem;
     }
+
+     /* Footer */
+
+     .footer-banner-contact,
+     .footer-container {
+         flex-direction: column;
+         row-gap: 25px;
+     }
 }
 
 @media screen and (max-width: 1024px) {
@@ -790,10 +811,27 @@ footer > span {
     .about-image p {
         display: none;
     } 
+
+    /* Contact */
+    
+    .contact-column {
+        display: flex;
+        flex-wrap: wrap;
+        row-gap: 15px;
+    } 
+
 }
 
 @media screen and (max-width: 1300px) {
+    /* Home */
+
     #benefits-cards {
         grid-template-columns: repeat(2, 1fr);
+    }
+
+     /* Footer */
+
+     .motivation p {
+        font-size: 1rem;
     }
 }
