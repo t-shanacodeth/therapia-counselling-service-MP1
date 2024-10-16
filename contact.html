@@ -1,21 +1,24 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>THERAPIA | Contact</title>
 
-    <!-- CSS links -->
-	<link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Playfair:ital,opsz,wght@0,5..1200,300..900;1,5..1200,300..900&display=swap"
-    rel="stylesheet">
-<script src="https://kit.fontawesome.com/f402bc8978.js" crossorigin="anonymous"></script>
-<link href="assets/css/style.css" rel="stylesheet">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>THERAPIA | Contact</title>
+
+	<!-- CSS links -->
+	<link
+		href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Playfair:ital,opsz,wght@0,5..1200,300..900;1,5..1200,300..900&display=swap"
+		rel="stylesheet">
+	<script src="https://kit.fontawesome.com/f402bc8978.js" crossorigin="anonymous"></script>
+	<link href="assets/css/style.css" rel="stylesheet">
 </head>
+
 <body>
-    <header>
+	<header>
 		<div id="logo">
 			<a href="index.html">
-			<img src="assets/images/universal/therapia-logo-3.png" alt="Therapia Counselling Service Logo">
+				<img src="assets/images/universal/therapia-logo-3.png" alt="Therapia Counselling Service Logo">
 			</a>
 		</div>
 		<nav id="nav-links">
@@ -33,107 +36,129 @@
 		</nav>
 	</header>
 
-    <main>
+	<main>
 		<h1>
 			Send a Message to Natalie
 		</h1>
-		<div class="contact-wrapper">
-			<section id="contact-quote">
-				<p class="quote">
-					I'm not where I want to be,
-					<br>
-					but thank God I'm not where I
-					<br>
-					used to be.
-					<br>
-					I'm okay and I'm on my way.
-				</p>
-				<hr>
-				<span class="quote-author">
-					JOYCE MEYER
-				</span>
-			</section>
-			<section class="contact-details">
-
-			</section>
-			<section class="contact-form">
-				<p>
-					If you are ready to start your healing journey and book a free 30-minute consultation, 
-					or you have a question for Natalie, please fill in the form below.
-				</p>
-				<form method="get" action="response.html">
-					<div class="client-identity">
-						<div class="inline-name">
-							<label for="fName"> FIRST NAME</label>
-							<input type="text" name="fName" id="fName" required>
-						</div>
-						<div class="inline-name">
-							<label for="lName">LAST NAME</label>
+			<div class="container-content">
+				<section class="left-side">
+					<div class="contact-quote">
+						<p class="quote">
+							I'm not where I want to be,
 							<br>
-							<input type="text" name="lName" id="lName">
-						</div>
-						<div class="inline-name">
-							<label for="prefName">PREFERRED NAME (if different to first name)</label>
+							but thank God I'm not where I used to be.
 							<br>
-							<input type="text" name="prefName" id="prefName">
+							I'm okay and I'm on my way.
+						</p>
+						<hr>
+						<span class="quote-author">
+							JOYCE MEYER
+						</span>
+					</div>
+				</section>
+				<section class="right-side">
+					<p>
+						If you are ready to start your healing journey
+						and book a free 30 minute consultation, or you have a question for Natalie,
+						please fill in the form below.
+					</p>
+					<form method="get" action="response.html">
+						<div class="contact-column">
+							<div class="input-box">
+								<label for="first-name">First Name</label>
+								<input type="text" id="first-name" name="first-name"
+									required>
+							</div>
+	
+							<div class="input-box">
+								<label for="last-name">Last Name</label>
+								<input type="text" id="last-name" name="last-name" required>
+							</div>
 						</div>
-						<div class="pronouns">
-							<label for="pronouns">Choose your pronouns from the dropdown list</label>
-							<br>
+					
+						<div class="input-box">
+							<label for="pronouns">Choose your pronouns:</label>
 							<select id="pronouns" name="pronouns" required>
-								<option value="she">She/Her</option>
-								<option value="her">He/Him</option>
-								<option value="they">They/Them</option>
+								<option value="She/Her">She/Her</option>
+								<option value="He/His">He/His</option>
+								<option value="They/Them">They/Them</option>
 							</select>
 						</div>
-					</div>
-					<div class="client-details">
-						<div class="phone-number">
-							<label for="phone">PHONE</label>
-							<br>
-							<input type="text" name="phone" id="phone" readonly>
+
+						<div class="contact-column">
+							<div class="input-box">
+								<label for="phone">Phone Number</label>
+								<input type="text" id="phone" name="phone" required>
+							</div>
+							<div class="input-box">
+								<label for="email">Email Address</label>
+								<input type="email" id="email" name="email" required>
+							</div>
 						</div>
-						<div class="email-address">
-							<label for="email">EMAIL</label>
-							<br>
-							<input type="email" name="email" id="email" required>
+
+						<div class="contact-callback">
+							<div class="input-box">
+								<span>Choose your preferred contact method:</span>
+								<br>
+								<label for="by-phone">
+									<input type="radio" id="by-phone" name="preferred-method">
+									Phone
+								</label>
+								<br>
+								<label for="by-email">
+									<input type="radio" id="by-email" name="preferred-method">
+									Email
+								</label>
+							</div>
+							<div class="input-box">
+								<span>Choose the best time of day for a callback:</span>
+								<br>
+								<label for="morning">
+									<input type="checkbox" id="morning" name="callback">
+									Morning
+								</label>
+								<br>
+								<label for="afternoon">
+									<input type="checkbox" id="afternoon" name="callback">
+									Afternoon
+								</label>
+								<br>
+								<label for="evening">
+									<input type="checkbox" id="evening" name="callback">
+									Evening
+								</label>
+							</div>
 						</div>
-					</div>
-					<div class="contact">
-						<span for="preferred-contact">
-							PREFERRED CONTACT METHOD:
-						</span>
-						<label for="viaPhone">
-							Phone
-							<input type="radio" name="prefContact" id="viaPhone">
-						</label>
-						<label for="viaEmail">
-							Email
-							<input type="radio" name="prefContact" id="via-email">
-						</label>
-						<span>
-							BEST TIME OF DAY FOR A CALLBACK:
-						</span>
-						
-					</div>
-					<div class="message">
 
-					</div>
-					<input type="submit" value="SUBTMIT">
-				</form>
-				
-			</section>
-		</div>
-		
+						<div class="input-box">
+							<label for="contact-reason">Reason for contact:</label>
+							<select id="contact-reason" name="contact-reason" required>
+								<option value="book consultation">Book a consultation</option>
+								<option value="general enquiry">General enquiry</option>
+							</select>
+						</div>
 
-        <!-- BACK TO TOP BUTTON -->
+						<div class="input-box">
+							<label for="message">Message</label>
+							<textarea id="message" required></textarea>
+						</div>
 
-	<a href="#" class="back-to-top">
-		<i class="fa-solid fa-arrow-up"></i>
-	</a>
-    </main>
+						<div class="form-btns">
+							<input type="submit" value="SUBMIT">
+							<input type="reset" value="RESET FORM">
+						</div>
+					</form>
+				</section>
+			</div>
 
-    <footer>
+		<!-- BACK TO TOP BUTTON -->
+
+		<a href="#" class="back-to-top">
+			<i class="fa-solid fa-arrow-up"></i>
+		</a>
+	</main>
+
+	<footer>
 		<div class="footer-banner-contact">
 			<div class="motivation">
 				<p>
@@ -213,7 +238,7 @@
 		</div>
 		<hr>
 		<span>
-			 <strong>
+			<strong>
 				Created by Tishana Bascombe
 			</strong>
 			<br>
@@ -222,6 +247,7 @@
 			User Centric Frontend Development
 		</span>
 	</footer>
-    
+
 </body>
+
 </html>

@@ -4,15 +4,15 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+    color: #252422;
 }
 
 body {
-    font-family: "Montserrat", sans-serif;
     font-weight: 400;
-    color: #252422;
     display: flex;
     flex-direction: column;
-    /* background-color: aquamarine; */
+    background-color: aquamarine;
     justify-content: center;
     align-items: center;
     width: 100%;
@@ -47,20 +47,23 @@ footer {
 
 #benefits-section {
     background-color: rgba(199, 154, 151, 0.5);
+    padding-bottom: 10vh;
 }
 
 #about-section {
     background-color: rgba(253, 245, 230, 0.3);
+    padding-bottom: 10vh;
 }
 
 #specialities-section {
     background-color: rgba(217, 191, 217, 0.3);
+    padding-bottom: 5vh;
 }
 
 #services-bg {
     background-color: rgba(204, 216, 192, 0.6);
-    padding-top: 40px;
-    padding-bottom: 100px;
+    padding-top: 4vh;
+    padding-bottom: 8vh;
 }
 
 
@@ -141,6 +144,7 @@ nav {
 
 main {
     width: 100%;
+    min-height: 90vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -162,9 +166,13 @@ main {
     padding-bottom: 35px;
 }
 
-.main-section-heading p {
+.main-section-heading p,
+.section-header p,
+.right-side p {
     font-size: 15px;
     font-weight: 500;
+    padding-bottom: 2vh;
+    text-align: center;
 }
 
 /* Hero Section */
@@ -180,6 +188,7 @@ h1 {
     font-family: "Abril Fatface", serif;
     font-size: 3rem;
     padding: 3vh 2vw;
+    text-align: center;
 }
 
 .hero-paragraph {
@@ -192,14 +201,13 @@ h1 {
     background-color: #B47555;
     padding: 10px 45px;
     font-family: inherit;
-    font-size: 14px;
+    font-size: 0.75rem;
     color: #fff;
     font-weight: inherit;
     letter-spacing: inherit;
     border-radius: 4px;
     transition: transform 0.3s ease-in-out;
     box-shadow: 0px 0px 10px 6px rgba(180, 117, 85, 0.2);
-
 }
 
 .free-consultation:hover {
@@ -216,23 +224,13 @@ h1 {
 #benefits-cards {
     width: 80%;
     margin: 0 auto;
-    padding-bottom: 100px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    row-gap: 2.5rem;
-    line-height: 1.5;
-}
-
-.card-row {
-    display: inline-flex;
-    flex-direction: row;
-    justify-content: space-between;
-    flex-wrap: wrap;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    row-gap: 25px;
 }
 
 .card {
-    width: 30%;
+    width: 330px;
     background-color: white;
     border-radius: 14px;
     padding: 10px 15px;
@@ -441,7 +439,7 @@ h1 {
 .services-content {
     width: 60%;
     border: 3px solid #D9BFD9;
-    padding: 5vh 8vw;
+    padding: 5vh 6vw;
     margin: 50px auto;
     line-height: 1.5;
     font-size: 14px;
@@ -460,10 +458,118 @@ h1 {
     margin: 20px auto 10px auto;
 }
 
-/* Contact */
+/* Contact Main */
 
-.contact-wrapper {
-    min-width: 80%;
+.container-content {
+    background-color: aqua;
+    width: 80%;
+    min-height: 80vh;
+    padding: 3vh 2vw;
+    margin-bottom: 8vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.left-side {
+    width: 80%;
+    height: 100%;
+    margin: 2vh 2vw;
+    text-align: center;
+}
+
+.right-side {
+    background-color: rgba(217, 191, 217, 0.3);
+    border: 2px solid #D9BFD9;
+    width: 80%;
+    height: 100%;
+    padding: 6vh 2.5vw 0 2.5vw;
+    margin-top: 2vh;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    margin: 2vh 2vw;
+    font-size: 0.85rem;
+    justify-content: center;
+}
+
+.input-box {
+    width: 100%;
+    margin-top: 2vh;
+}
+
+input,
+select,
+textarea {
+    outline: none;
+    border: 1px solid #D9BFD9;
+    margin-top: 4px;
+}
+
+input[type=text],
+input[type=email],
+select,
+textarea {
+    position: relative;
+    height: 35px;
+    width: 100%;
+    border-radius: 4px;
+    padding: 0px 15px;
+}
+
+textarea {
+    min-width: 100%;
+    min-height: 125px;
+    resize: none;
+    padding-top: 10px;
+}
+
+label {
+    margin-right: 15px;
+}
+
+.contact-column {
+    display: flex;
+    column-gap: 15px;
+}
+
+.form-btns {
+    align-self: center;
+    margin: 5vh;
+}
+
+input[type=submit],
+input[type=reset] {
+    font-size: 0.75rem;
+    padding: 5px 20px;
+    margin-right: 20px;
+    border: 1px solid #B47555;
+    border-radius: 4px;
+}
+
+input[type=submit] {
+    background-color: #B47555;
+    color: #fff;
+}
+
+input[type=submit]:hover {
+    color: #B47555;
+    background-color: #FDF5E6;
+    cursor: pointer;
+}
+
+input[type=reset] {
+    background-color: #fff;
+    color: #B47555;
+}
+
+input[type=reset]:hover {
+    background-color: #FDF5E6;
+    color: #B47555;
+    cursor: pointer;
 }
 
 /* Back to Top - Credit: Tyler Potts */
@@ -604,16 +710,53 @@ footer > span {
 .footer-banner-contact {
     background-color: rgba(204, 216, 192, 0.6);
     width: 100%;
-    height: 10vh;
+    min-height: 10vh;
+    padding: 2vh;
     display: flex;
     justify-content: space-around;
     align-items: center;
 }
 
-.motivation {
+.motivation p {
     font-family: "EB Garamond", serif;
-    font-size: 20px;
+    font-size: 1rem;
 }
 
 
 
+/* ----------------------------------------------------- MEDIA QUERIES ------------- */
+
+@media screen and (max-width: 768px) {
+
+    /* Home */
+
+    #benefits-cards {
+        width: 80%;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        row-gap: 25px;
+    }
+
+    /* Services */
+
+    .services-content {
+        width: 80%;
+    }
+
+    /* Contact */
+    
+     .contact-column {
+        display: flex;
+        flex-wrap: wrap;
+        row-gap: 15px;
+    } 
+
+    /* Footer */
+
+    .footer-banner-contact,
+    .footer-container {
+        flex-direction: column;
+        row-gap: 25px;
+    }
+} 
