@@ -16,6 +16,7 @@ body {
     justify-content: center;
     align-items: center;
     width: 100%;
+    min-height: 100vh;
 }
 
 a {
@@ -122,6 +123,42 @@ nav {
     color: #B47555;
     cursor: pointer;
 } 
+
+#nav-links i {
+    font-size: 25px;
+}
+
+.sidebar {
+    position: fixed;
+    top: 0;
+    right: 0;
+    height: 100vh;
+    width: 20vw;
+    padding: 35px 0;
+    z-index: 999;
+    background-color: #FDF5E6;
+    box-shadow: -5px 0 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    display: none;
+}
+
+.sidebar a:last-child {
+    margin-top: auto;
+}
+
+.sidebar a {
+    width: 100%;
+    margin: 10px auto;
+    background-color: #c15071;
+}
+
+.sidebar-logo img {
+    width: 200px;
+    height: 200px;
+}
 
 /* Contact */
 
