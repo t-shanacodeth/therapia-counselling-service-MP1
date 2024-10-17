@@ -92,7 +92,6 @@ footer {
     align-items: center;
 }
 
-
 /* ----------------------------------------------------- HEADER ------------- */
 
 header {
@@ -477,6 +476,7 @@ h1 {
 
 .services-heading {
     text-align: center;
+    font-size: 1.5rem;
 }
 
 .services-separater {
@@ -484,7 +484,12 @@ h1 {
     background-color: #D9BFD9;
     height: 5px;
     width: 65%;
-    margin: 20px auto 10px auto;
+    margin: 10px auto 25px auto;
+}
+
+h3 {
+    font-size: 1.15rem;
+    font-weight: 600;
 }
 
 /* Contact Main */
