@@ -237,7 +237,7 @@ h1 {
     background-color: #B47555;
     padding: 10px 45px;
     font-family: inherit;
-    font-size: 0.75rem;
+    font-size: 0.85rem;
     color: #fff;
     font-weight: inherit;
     letter-spacing: inherit;
@@ -348,7 +348,7 @@ h1 {
     margin-top: 4rem;
     padding: 10px 30px;
     font-family: inherit;
-    font-size: 0.75rem;
+    font-size: 0.85rem;
     font-weight: 500;
     transition: background-color .2s ease-in-out;
 }
