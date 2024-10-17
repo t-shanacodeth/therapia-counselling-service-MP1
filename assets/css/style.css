@@ -12,7 +12,6 @@ body {
     font-weight: 400;
     display: flex;
     flex-direction: column;
-    /* background-color: aquamarine; */
     justify-content: center;
     align-items: center;
     width: 100%;
@@ -39,36 +38,58 @@ footer {
     background: url(https://www.clinical-partners.co.uk/images/therapies/talking-therapies-hero.jpg) no-repeat;
     background-size: cover;
     width: 100%;
+    height: 85vh;
 }
 
 .hero-text {
     background-color: rgba(253, 245, 230, 0.3);
     padding-bottom: 10vh;
+    height: inherit;
 }
 
 #benefits-section {
     background-color: rgba(199, 154, 151, 0.5);
     padding-bottom: 10vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+
 }
 
 #about-section {
     background-color: rgba(253, 245, 230, 0.3);
     padding-bottom: 10vh;
+    width: 100%;
 }
 
 #specialities-section {
     background-color: rgba(217, 191, 217, 0.3);
     padding-bottom: 5vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 #services-bg {
     background-color: rgba(204, 216, 192, 0.6);
     padding-bottom: 8vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 #response-bg {
     background-color: rgba(199, 154, 151, 0.25);
     padding-bottom: 10vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 
@@ -78,10 +99,18 @@ header {
     width: 100%;
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: center;
     padding-left: 70px;
     padding-right: 75px;
-    overflow: auto;
+}
+
+nav {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 600;
+    letter-spacing: 0.1rem;
 }
 
 #logo img {
@@ -89,22 +118,27 @@ header {
     width: 150px;
 }
 
-nav {
-    font-weight: 600;
-    letter-spacing: 0.1rem;
+.sidebar {
+    background-color: rgb(253, 245, 230);
 }
 
-#nav-links a {
-    padding: 5px 10px;
-    margin-left: 45px;
+.navbar ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.nav-link {
     font-size: 0.9rem;
+    color: #B47555;
+    margin-left: 50px;
 }
 
-#nav-links a:hover {
+.nav-link:hover {
     color: #B47555;
 }
 
-#nav-links button {
+.nav-link button {
     border: 1px solid #B47555;
     background-color: #B47555;
     padding: 5px 25px;
@@ -117,48 +151,12 @@ nav {
     transition: background-color .2s ease-in-out;
 }
 
-#nav-links button:hover {
+.nav-link button:hover {
     border: 1px solid #B47555;
     background-color: #fff;
     color: #B47555;
-    cursor: pointer;
+
 } 
-
-#nav-links i {
-    font-size: 25px;
-}
-
-.sidebar {
-    position: fixed;
-    top: 0;
-    right: 0;
-    height: 100vh;
-    width: 20vw;
-    padding: 35px 0;
-    z-index: 999;
-    background-color: #FDF5E6;
-    box-shadow: -5px 0 10px rgba(0, 0, 0, 0.1);
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    align-items: flex-start;
-    display: none;
-}
-
-.sidebar a:last-child {
-    margin-top: auto;
-}
-
-.sidebar a {
-    width: 100%;
-    margin: 10px auto;
-    background-color: #c15071;
-}
-
-.sidebar-logo img {
-    width: 200px;
-    height: 200px;
-}
 
 /* Contact */
 
@@ -363,14 +361,6 @@ h1 {
 
 /* What I Can Help With Section */
 
-#specialities-section {
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-
 .specialities-content {
     width: 80%;
     margin: 0 auto;
@@ -412,8 +402,7 @@ h1 {
 .quote {
     font-family: "Playfair", serif;
     font-size: 18px;
-    font-weight: 600;
-    font-style: italic;
+    font-weight: 400;
     margin-bottom: 15px;
 }
 
@@ -428,6 +417,7 @@ h1 {
 .quote-author {
     font-family: "EB Garamond", serif;
     font-size: 14px;
+    font-weight: 600;
     color: #C79A97;
 }
 
@@ -605,8 +595,6 @@ input[type=reset] {
 }
 
 input[type=reset]:hover {
-    background-color: #FDF5E6;
-    color: #B47555;
     cursor: pointer;
 }
 
@@ -661,6 +649,8 @@ footer {
     width: 100%;
     display: flex;
     flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
 footer a:hover,
@@ -670,7 +660,6 @@ footer i:hover{
 
 .footer-container {
     width: 80%;
-    margin: 0 auto;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -703,7 +692,10 @@ h5 {
 
 .footer-menu,
 .social-links {
+    align-items:center;
     line-height: 2.25;
+    display: flex;
+    flex-direction: column;
 }
 
 h5 {
@@ -716,6 +708,7 @@ h5 {
     line-height: 2.25;
     font-size: small;
     list-style-type: none;
+    padding: 0px 0px;
 }
 
 .footer-container ~ hr {
@@ -817,6 +810,7 @@ footer > span {
         display: flex;
         flex-direction: column;
         justify-content: center;
+        align-items: center;
     }
 
     .hero-text h1 {
