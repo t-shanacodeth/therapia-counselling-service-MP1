@@ -38,13 +38,13 @@ footer {
     background: url(https://www.clinical-partners.co.uk/images/therapies/talking-therapies-hero.jpg) no-repeat;
     background-size: cover;
     width: 100%;
-    height: 55em;
+    height: 50em;
 }
 
 .hero-text {
     background-color: rgba(253, 245, 230, 0.3);
     padding-bottom: 10vh;
-    height: 55em;
+    height: 50em;
 }
 
 #benefits-section {
@@ -131,7 +131,7 @@ nav {
 .nav-link {
     font-size: 0.9rem;
     color: #B47555;
-    margin-left: 50px;
+    margin-left: 40px;
     text-align: center;
 }
 
@@ -139,44 +139,44 @@ nav {
     color: #B47555;
 }
 
-.nav-item button {
+.link-btn {
     border: 1px solid #B47555;
     background-color: #B47555;
-    padding: 5px 25px;
     font-family: inherit;
     font-size: 0.9rem;
-    color: #fff;
+    padding: 5px 25px !important;
+    color: #fff !important;
     font-weight: inherit;
     letter-spacing: inherit;
     border-radius: 4px;
     transition: background-color .2s ease-in-out;
 }
 
-.nav-item button:hover {
+.link-btn:hover {
     border: 1px solid #B47555;
     background-color: #fff;
-    color: #B47555;
+    color: #B47555 !important;
 
 } 
 
 /* Contact */
 
-#active-contact > button {
+#active-contact {
     background-color: #fff;
     padding: 5px 25px;
     font-family: inherit;
     font-size: 15px;
-    color: #B47555;
+    color: #B47555 !important;
     font-weight: inherit;
     letter-spacing: inherit;
     border-radius: 4px;
     transition: background-color .2s ease-in-out;
 }
 
-#active-contact > button:hover {
+#active-contact:hover {
     border: 1px solid #B47555;
     background-color: #B47555;
-    color: #fff;
+    color: #fff !important;
 }
 
 /* ----------------------------------------------------- MAIN ------------- */
@@ -234,7 +234,7 @@ h1 {
     font-size: 1.1rem;
 }
 
-.free-consultation {
+#free-consultation {
     border: 2px solid #B47555;
     background-color: #B47555;
     padding: 10px 45px;
@@ -248,7 +248,7 @@ h1 {
     box-shadow: 0px 0px 10px 6px rgba(180, 117, 85, 0.2);
 }
 
-.free-consultation:hover {
+#free-consultation:hover {
     transform: scale(1.04);
     border: 1px solid #B47555;
     background-color: #fff;
@@ -837,7 +837,7 @@ footer > span {
 @media screen and (max-width: 875px) {
 
     /* Home */
-
+    
     #benefits-cards {
         display: flex;
         flex-direction: column;
