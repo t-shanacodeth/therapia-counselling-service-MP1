@@ -91,6 +91,17 @@ The responsivity test on these devices were also successful.
 
 <img src="documentation/testing/css-errors.png" width="50%">
 
+#### Fix errors
+---
+
++ I was able to fix the button errors in the header and the hero section, but not the About section.
++ I was able to fix the arialabelled by issue after renaming to the id of the button that it is for.
+
+1 error bug remains across the whole website. Please see below:
+
+<img src="documentation/testing/remaining-error-bug.png" width="50%">
+
+
 ### LightHouse Report
 ---
 
@@ -158,4 +169,5 @@ With the use of Lighthouse in Dev Tools, I confirmed that the website is perform
 Many mistakes were made during committing messages.
 + Some times I forgot what I wanted to commit and the changes that were made.
 + The commit messages are inconsistent. I would like to learn a method of writing good commit messages and following through with it.
++ To fix some of the error bugs, I have to use more !important in the CSS. For future improvement, I need to understand how to properly use buttons and a tags and the correct syntax.
 
