@@ -99,8 +99,8 @@ header {
     display: flex;
     align-items: center;
     justify-content: center;
-    padding-left: 70px;
-    padding-right: 75px;
+    padding-left: 50px;
+    padding-right: 55px;
 }
 
 nav {
@@ -796,7 +796,7 @@ footer > span {
 
 /* ----------------------------------------------------- MEDIA QUERIES ------------- */
 
-@media screen and (max-width: 430px) {
+@media screen and (max-width: 480px) {
     header {
         padding: 0px 10px 0px 0px;
     }
