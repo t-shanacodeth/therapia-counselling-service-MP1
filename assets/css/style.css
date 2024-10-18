@@ -805,6 +805,17 @@ footer > span {
         height: 125px;
         width: 125px;
     }
+
+    /* Services */
+
+    .container-content {
+        width: 95%;
+    }
+
+    .form-btns {
+        display: inline-flex; 
+        margin-right: 15px;
+    }
 }
 
 @media screen and (max-width: 768px) {
