@@ -139,7 +139,7 @@ nav {
     color: #B47555;
 }
 
-.nav-link button {
+.nav-item button {
     border: 1px solid #B47555;
     background-color: #B47555;
     padding: 5px 25px;
@@ -152,7 +152,7 @@ nav {
     transition: background-color .2s ease-in-out;
 }
 
-.nav-link button:hover {
+.nav-item button:hover {
     border: 1px solid #B47555;
     background-color: #fff;
     color: #B47555;
@@ -837,6 +837,7 @@ footer > span {
 @media screen and (max-width: 875px) {
 
     /* Home */
+
     #benefits-cards {
         display: flex;
         flex-direction: column;
