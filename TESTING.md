@@ -164,6 +164,8 @@ With the use of Lighthouse in Dev Tools, I confirmed that the website is perform
 
 <img src="documentation/testing/sidebar-bug.png" width="25%">
 
+2. After fixing the button errors, the contact-active id works in the Live Server, but not once deployed.
+
 #### Mistakes
 
 Many mistakes were made during committing messages.
