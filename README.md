@@ -1,5 +1,6 @@
 # Milestone Project 1: Therapia Counselling Service 
 
+<img src="documentation/wireframes/therapia-mockup.png" width="90%">
 
 ## Contents
 
@@ -23,7 +24,7 @@ The website is a reimagined version of my therapist's website for her counsellin
 
 Therapia Counselling Service is an online therapy service for individuals seeking a safe space to be vulnerable and talk through their mental health challenges and issues surrounding their lives.
 
-The site can be accessed via this [link](...).
+The site can be accessed via this [link](https://t-shanacodeth.github.io/therapia-counselling-service-MP1/).
 
 ---
 
@@ -56,6 +57,9 @@ The site can be accessed via this [link](...).
 #### Navigation Bar
 
 Positioned at the top of the page, containing: the company logo on the left side, and the navigation links on the right.
+It is clear and easy to understand.
+
+<img src="documentation/completed-website/header-screencapture.png" width="50%">
 
 The navigation links are:
 + HOME - leads the user to the home page where they can learn about the company, Therapia COunselling Service, and its owner. As well as the benefits of therapy.
@@ -64,25 +68,129 @@ The navigation links are:
 
 The navigation links have a hover effect so that the users know they are interactive and can be clicked.
 
+The navigation bar is responsive, and the view is the same for tablets and mobiles for ease.
+A hamburger menu has been implemented, and when clicked a sidebar opens which reveals the navigation links for users.
+
+<img src="documentation/completed-website/header-responsive-screencapture.png" width="25%">
+
+The sidebar takes up the entire height of the device.
+
+<img src="documentation/completed-website/sidebar-screencapture.png" width="25%">
+
 #### Footer
 
+The footer is positioned at the bottom of each page.
+Each footer is different in that they each have a different banner image to match the main colors of the page. It creates a better flow.
+
+The general styling for all footers include:
++ COMPANY LOGO: positioned to the left of the footer with copyright infromation.
++ MENU section: position to the center of the footer. Each menu link direct the users to the pages of the webiste - the same as the navigation links in the navigation bar at the top.
++ SOCIAL MEDIA section: positioned to the right of the footer. They take the user to the company's social media pages to further connect.
+
+<img src="documentation/completed-website/footer-largescreens.png" width="50%">
+
+Like the navigation bar, it is also responsive. When viewed on devices smaller than a tablet, the footer will collapse into a coloumn.
+
+<img src="documentation/completed-website/footer-responsive.png" width="25%">
+
+---
 
 ### Home Page
 
+The Home page represents the main idea of the company.
+
+<img src="documentation/completed-website/home-screencapture.png" width="50%">
+
+The Home page is also responsive for tablets and phones. 
+For the responsivity of each section, pleaser refer to the images below:
+
+**Tablets**
+
+<img src="documentation/completed-website/home-responsive-screencapture 1.png" width="50%">
+
+**Phones**
+
+<img src="documentation/completed-website/home-responsive-screencapture-2.png" width="25%">
+
+---
+
 #### Hero Section
 
-#### Call to Action
+The Hero section is a fixed background of an image. It also includes a call to action for users to interact with.
+
+<img src="documentation/completed-website/hero-screencapture.png" width="50%">
+
+---
+
+#### 'Life Changing Benefits of Therapy' Section
+
+This section concisely explains to users some of the many benefits of therapy.
+It consists of six cards with images which compliment the color of the section, and reasons why that card title is a benefit underneath.
+
+<img src="documentation/completed-website/therapy-benefits-screencapture.png" width="50%">
+
+---
 
 #### About Section
 
+This section introduces the company, Therapia COunselling Service, and its owner, Natalie Atandare.
+On the left is an image, and on the right is a summary of what her experience is and what her goals are the the service.
+
+<img src="documentation/completed-website/about-section-screencapture.png" width="50%">
+
+---
+
 #### 'What I Can Help With' Section
 
+This section clerly and concisely identifies what Natalie can help potential clients with.
+However, this only covers some of her extensive experience.
+
+To the right (or above depending on the device) of the unordered list of types of issues that Natalie is worked with, is one of her favortie quotes, with hopes that it will motivate potential users to not give up on life.
+
+<img src="documentation/completed-website/help-screencapture.png" width="50%">
+
+---
+
 #### Testimonials Section
+
+The testimonials section called 'Client Stories' has four cards with feeback from former clients who were happy with Natalie's service.
+Due to the personal nature of therapy, the author of each feedback has been left anonymous.
+
+<img src="documentation/completed-website/testimonials-screencapture.png" width="50%">
+
+---
 
 
 ### Services Page
 
+The Services page includes a summary of what the type of therapy provided is, the modialities used to promote change in a person, and to expect in the sessions.
+
+At the bottom of the page is a Call to Action button, which leads the potential client to the Contact page, should they wish to use the service after liking what they read.
+
+<img src="documentation/completed-website/services-screencapture.png" width="50%">
+
+---
+
 ### Contact Page
+
+The Contact page includes a motivational quote at the top, and a form.
+In the form the potential client could enter their details if they would like to get in contact with Natalie and book a free consultation, or find out more general information.
+
+When the website user clicks the 'Submit' button, it would lead them to the 'Response' page.
+
+<img src="documentation/completed-website/contact-screencapture-1.png" width="50%">
+
+The contact form is also responsive for tablets and phones. Please see the image below.
+
+<img src="documentation/completed-website/contact-responsive-screencapture.png" width="25%">
+
+---
+
+### Response Page
+
+The Response page includes a short message thanking the website user for filling out the form to get in contact with Natalie, and gives them an expected timeframe for which she will be in contact for the first part of the service or to answer the general query.
+
+<img src="documentation/completed-website/response-screencapture.png" width="50%">
 
 ---
 
@@ -91,7 +199,7 @@ The navigation links have a hover effect so that the users know they are interac
 
 ### Color Scheme
 
-The color scheme was chosen to be calming and inviting for prospective clients.
+The color scheme was chosen to be calming and inviting for prospective clients. It was intended to feel welcomning.
 
 <img src="documentation/color-scheme/therapia-color-scheme.png" width="50%">
 
@@ -99,7 +207,7 @@ The color scheme was chosen to be calming and inviting for prospective clients.
 - **#FDF5E6:** Cream color was used as the main color of the website. This was the fist color selected. I wanted to create a calming and homey feel to the website. The other colors were selected to compliment this color and theme.
 - **#DE5D83:** Blush pink color to stand out against the rest of the color scheme so that users could easily see the        back-to-top button and the hover action in the footer.
 - **##C15071:** Darker pink color used for hover effect over the back-to-top button for clear interaction.
-- **#C79A97:** 
+- **#C79A97:** Dusty pink color used as a complimentary color. It was used for some of the sections such as the 'Life Changing Benefits of Therapy' and the 'Response' page.
 - **#B47555:** Brown color was used to provide a contrast with the main cream color of the website. It was assigned to the buttons and the heading of the About section.
 - **#CCD8C0:** Pastel green color used for sections of the website - the client stories testimonial boxes and the background of the 'Services' page.
 - **#D9BFD9:** Lilac color used for used for sections of the website as it is my therapist's favorite color. I wanted to incoporate more of the colors that she liked or I felt matched her vibe/energy so that the website could best represent her.
