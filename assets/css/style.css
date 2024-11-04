@@ -4,7 +4,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: "Montserrat", sans-serif;
+    font-family: Montserrat, sans-serif;
     color: #252422;
 }
 
@@ -31,24 +31,26 @@ a:visited {
 
 header, 
 footer {
-    background-color: rgba(253, 245, 230, 0.5);
+    background-color: rgb(253 245 230 / 50%);
 }
 
 #hero-section {
-    background: url(https://www.clinical-partners.co.uk/images/therapies/talking-therapies-hero.jpg) no-repeat;
+    background: url("https://www.clinical-partners.co.uk/images/therapies/talking-therapies-hero.jpg") no-repeat;
     background-size: cover;
     width: 100%;
-    height: 50em;
+    height: 55em;
 }
 
 .hero-text {
-    background-color: rgba(253, 245, 230, 0.3);
-    padding-bottom: 10vh;
-    height: 50em;
+    background-color: rgb(253 245 230 / 30%);
+    padding: 18vh 0 10vh;
+    height: inherit;
+    margin: 0 auto;
+    text-align: center;
 }
 
 #benefits-section {
-    background-color: rgba(199, 154, 151, 0.5);
+    background-color: rgb(199 154 151 / 50%);
     padding-bottom: 10vh;
     width: 100%;
     display: flex;
@@ -57,13 +59,13 @@ footer {
 }
 
 #about-section {
-    background-color: rgba(253, 245, 230, 0.3);
+    background-color: rgb(253 245 230 / 30%);
     padding-bottom: 10vh;
     width: 100%;
 }
 
 #specialities-section {
-    background-color: rgba(217, 191, 217, 0.3);
+    background-color: rgb(217 191 217 / 30%);
     padding-bottom: 5vh;
     width: 100%;
     display: flex;
@@ -73,7 +75,7 @@ footer {
 }
 
 #services-bg {
-    background-color: rgba(204, 216, 192, 0.6);
+    background-color: rgb(204 216 192 / 60%);
     padding-bottom: 8vh;
     width: 100%;
     display: flex;
@@ -83,7 +85,7 @@ footer {
 }
 
 #response-bg {
-    background-color: rgba(199, 154, 151, 0.25);
+    background-color: rgb(199 154 151 / 25%);
     padding-bottom: 10vh;
     width: 100%;
     display: flex;
@@ -118,7 +120,7 @@ nav {
 }
 
 .sidebar {
-    background-color: rgb(253, 245, 230);
+    background-color: rgb(253 245 230);
 }
 
 .navbar ul {
@@ -215,13 +217,6 @@ main {
 
 /* Hero Section */
 
-.hero-text {
-    min-height: inherit;
-    margin: 0 auto;
-    text-align: center;
-    padding-top: 125px;
-}
-
 h1 {
     font-family: "Abril Fatface", serif;
     font-size: 3rem;
@@ -230,7 +225,7 @@ h1 {
 }
 
 .hero-paragraph {
-    padding: 4vh 4vw 12vh 4vw;
+    padding: 4vh 4vw 12vh;
     font-size: 1.1rem;
 }
 
@@ -245,7 +240,7 @@ h1 {
     letter-spacing: inherit;
     border-radius: 4px;
     transition: transform 0.3s ease-in-out;
-    box-shadow: 0px 0px 10px 6px rgba(180, 117, 85, 0.2);
+    box-shadow: 0 0 10px 6px rgb(180 117 85 / 20%);
 }
 
 #free-consultation:hover {
@@ -254,7 +249,7 @@ h1 {
     background-color: #fff;
     color: #B47555;
     cursor: pointer;
-    box-shadow: 0px 0px 10px 6px rgba(180, 117, 85, 0.2);
+    box-shadow: 0 0 10px 6px rgb(180 117 85 / 20%);
 } 
 
 /* Benefits of Therapy Section */
@@ -273,7 +268,7 @@ h1 {
     background-color: white;
     border-radius: 14px;
     padding: 10px 15px;
-    box-shadow: 0px 0px 23px 6px rgba(199, 154, 151, 0.4);
+    box-shadow: 0 0 23px 6px rgb(199 154 151 / 40%);
 }
 
 .benefits-card-image {
@@ -281,7 +276,7 @@ h1 {
     border-radius: 4px;
 }
 
-.benefits-card-image img{
+.benefits-card-image > img {
     max-width: 300px;
     max-height: 200px;
     display: block;
@@ -321,7 +316,7 @@ h1 {
     max-height: 250px;
     border: 4px solid #C79A97;
     border-radius: 50%;
-    box-shadow: 0px 0px 8px 4px rgba(199, 154, 151, 0.2);
+    box-shadow: 0 0 8px 4px rgb(199 154 151 / 20%);
     margin-bottom: 12px;
 }
 
@@ -346,7 +341,7 @@ h1 {
     background-color: #D9BFD9;
     border: 1px solid #D9BFD9;
     border-radius: 4px;
-    box-shadow: 0px 0px 8px 4px rgba(217, 191, 217, 0.2);
+    box-shadow: 0 0 8px 4px rgb(217 191 217 / 20%);
     margin-top: 4rem;
     padding: 10px 30px;
     font-family: inherit;
@@ -386,14 +381,14 @@ h1 {
 }
     
 .specialities-image-container {
-    background: url(../images/home/specialities-image.jpg) no-repeat;
+    background: url("../images/home/specialities-image.jpg") no-repeat;
     background-size: cover;
     background-position: center;
     padding: 60px 50px;
     text-align: center;
     border-radius: 4px;
     margin: 0 auto;
-    box-shadow: 0px 0px 23px 6px rgba(217, 191, 217, 0.4);
+    box-shadow: 0 0 23px 6px rgb(217 191 217 / 40%);
 }
 
 .specialities-quote {
@@ -403,7 +398,7 @@ h1 {
 }
 
 .quote {
-    font-family: "Playfair", serif;
+    font-family: Playfair, serif;
     font-size: 18px;
     font-weight: 400;
     margin-bottom: 15px;
@@ -411,10 +406,10 @@ h1 {
 
 .quote ~ hr {
     width: 20%;
-    margin: 8px auto 5px auto;
+    margin: 8px auto 5px;
     border: none;
     height: 2px;
-    background-color: rgb(199, 154, 151);
+    background-color: rgb(199 154 151);
 }
 
 .quote-author {
@@ -446,8 +441,8 @@ h1 {
 }
 
 .outer-box {
-    background-color: rgba(204, 216, 192, 0.75);
-    box-shadow: 0px 0px 18px 8px rgba(204, 216, 192, 0.16);
+    background-color: rgb(204 216 192 / 75%);
+    box-shadow: 0 0 18px 8px rgb(204 216 192 / 16%);
     padding: 25px;
     border-radius: 14px;
 }
@@ -488,7 +483,7 @@ h1 {
     background-color: #D9BFD9;
     height: 5px;
     width: 65%;
-    margin: 10px auto 25px auto;
+    margin: 10px auto 25px;
 }
 
 h3 {
@@ -517,11 +512,11 @@ h3 {
 }
 
 .right-side {
-    background-color: rgba(217, 191, 217, 0.3);
+    background-color: rgb(217 191 217 / 30%);
     border: 2px solid #D9BFD9;
     width: 80%;
     height: 100%;
-    padding: 6vh 2.5vw 0 2.5vw;
+    padding: 6vh 2.5vw 0;
     margin-top: 2vh;
 }
 
@@ -546,15 +541,15 @@ textarea {
     margin-top: 4px;
 }
 
-input[type=text],
-input[type=email],
+input[type="text"],
+input[type="email"],
 select,
 textarea {
     position: relative;
     height: 35px;
     width: 100%;
     border-radius: 4px;
-    padding: 0px 15px;
+    padding: 0 15px;
 }
 
 textarea {
@@ -578,8 +573,8 @@ label {
     margin: 5vh;
 }
 
-input[type=submit],
-input[type=reset] {
+input[type="submit"],
+input[type="reset"] {
     font-size: 0.75rem;
     padding: 5px 20px;
     margin-right: 20px;
@@ -587,23 +582,23 @@ input[type=reset] {
     border-radius: 4px;
 }
 
-input[type=submit] {
+input[type="submit"] {
     background-color: #B47555;
     color: #fff;
 }
 
-input[type=submit]:hover {
+input[type="submit"]:hover {
     color: #B47555;
     background-color: #FDF5E6;
     cursor: pointer;
 }
 
-input[type=reset] {
+input[type="reset"] {
     background-color: #fff;
     color: #B47555;
 }
 
-input[type=reset]:hover {
+input[type="reset"]:hover {
     cursor: pointer;
 }
 
@@ -628,8 +623,7 @@ html {
     bottom: 2rem;
     right: 2rem;
     display: inline-flex;
-    align-items: center;
-    justify-items: center;
+    place-items: center center;
     background-color: #DE5D83;
     padding: 0.5rem;
     border-radius: 4px;
@@ -674,7 +668,7 @@ footer i:hover{
     justify-content: space-between;
     align-items: center;
     text-align: center;
-    padding: 55px 0px 40px 0px;
+    padding: 55px 0 40px;
 }
 
 .footer-container hr {
@@ -717,7 +711,7 @@ h5 {
     line-height: 2.25;
     font-size: small;
     list-style-type: none;
-    padding: 0px 0px;
+    padding: 0;
 }
 
 .footer-container ~ hr {
@@ -732,13 +726,13 @@ footer > span {
     display: block;
     font-size: x-small;
     text-align: center;
-    padding: 10px 0px 15px 0px;
+    padding: 10px 0 15px;
 }
 
 /* Home Footer */
 
 .footer-banner-home {
-    background: url(../images/home/home-footer-image.jpg) no-repeat;
+    background: url("../images/home/home-footer-image.jpg") no-repeat;
     background-size: cover;
     background-position: bottom left; 
     height: 15vh;
@@ -748,23 +742,23 @@ footer > span {
 .footer-img-bg-home {
     width: inherit;
     height: inherit;
-    background-color: rgba(199, 154, 151, 0.4);
+    background-color: rgb(199 154 151 / 40%);
 }
 
-/* Services Footer*/
+/* Services Footer */
 
 .footer-banner-services {
-    background: url(../images/services/service-footer-img-2.jpg) no-repeat;
+    background: url("../images/services/service-footer-img-2.jpg") no-repeat;
     background-size: cover;
     background-position: center; 
     width: 100%;
     height: 15vh;
 }
 
-/* Contact Footer*/
+/* Contact Footer */
 
 .footer-banner-contact {
-    background-color: rgba(204, 216, 192, 0.6);
+    background-color: rgb(204 216 192 / 60%);
     width: 100%;
     min-height: 15vh;
     padding: 2vh;
@@ -781,7 +775,7 @@ footer > span {
 /* Response Footer */
 
 .footer-banner-response {
-    background: url(https://images.pexels.com/photos/1128797/pexels-photo-1128797.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2) no-repeat;
+    background: url("https://images.pexels.com/photos/1128797/pexels-photo-1128797.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2") no-repeat;
     background-size: cover;
     background-position: bottom center; 
     height: 15vh;
@@ -791,14 +785,14 @@ footer > span {
 .footer-img-bg-response {
     width: inherit;
     height: inherit;
-    background-color: rgba(199, 154, 151, 0.4);
+    background-color: rgb(199 154 151 / 40%);
 }
 
 /* ----------------------------------------------------- MEDIA QUERIES ------------- */
 
-@media screen and (max-width: 480px) {
+@media screen and (width <= 480px) {
     header {
-        padding: 0px 10px 0px 0px;
+        padding: 0 10px 0 0;
     }
 
     #logo img {
@@ -818,11 +812,10 @@ footer > span {
     }
 }
 
-@media screen and (max-width: 768px) {
-
+@media screen and (width <= 768px) {
     /* Home */
 
-    .hero-text h1 {
+    .hero-text > h1 {
         padding: 25px 20px;
         font-size: 1.5rem;
     }
@@ -834,8 +827,7 @@ footer > span {
     }
 } 
 
-@media screen and (max-width: 875px) {
-
+@media screen and (width <= 875px) {
     /* Home */
     
     #benefits-cards {
@@ -845,7 +837,7 @@ footer > span {
         align-items: center;
     }
 
-    .hero-text h1 {
+    .hero-text > h1 {
         padding: 25px 20px;
         font-size: 2.5rem;
     }
@@ -859,9 +851,9 @@ footer > span {
      }
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (width <= 1024px) {
     .hero-paragraph {
-        padding: 4vh 4vw 8vh 4vw;
+        padding: 4vh 4vw 8vh;
     }
 
     .about-container {
@@ -885,11 +877,11 @@ footer > span {
 
 }
 
-@media screen and (max-width: 1300px) {
+@media screen and (width <= 1300px) {
     /* Home */
 
     #benefits-cards {
-        grid-template-columns: repeat(2, 1fr);
+        grid-template-columns: 1fr 1fr;
     }
 
      /* Footer */
