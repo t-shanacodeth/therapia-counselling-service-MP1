@@ -243,7 +243,7 @@ With the use of Lighthouse in Dev Tools, I confirmed that the website is perform
 #### Solved bugs
 
 1. The text and button in the hero section was pushing into the below section on mobile devices.
-   _Solution_: I changed the height of the hero section for the background image to 55em, and the text container (.hero-text) to inherit the height of its parent container.
+   _Solution_: I changed the height of the hero section for the background image to 52em, and the text container (.hero-text) to inherit the height of its parent container.
 
 <img src="documentation/testing/hero-bug.png" width="25%">
 <img src="documentation/testing/hero-fixed.png" width="25%">
