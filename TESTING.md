@@ -93,7 +93,7 @@ Some of the devices used by the 'Inspect' tool are:
 
 ---
 
-CSS was validated using [W3C CSS Validator](https://jigsaw.w3.org/css-validator/validator.html.en#validate_by_input) and [Stylefint](https://stylelint.io/demo/).
+CSS was validated using [W3C CSS Validator](https://jigsaw.w3.org/css-validator/validator.html.en#validate_by_input) and [Stylelint](https://stylelint.io/demo/).
 
 When the CSS was validated through W3C, by uploading the link of the deployed site:
 
@@ -113,6 +113,13 @@ However, the same code was copied and pasted into the same validator:
 
 <img src="documentation/testing/css-error-w3c.png" width="50%">
 
+When the CSS was validated in Stylelint by copying and pasting the code into the text field:
+
+- Over 100 errors were found. Many were repeated incorrect syntaxes.
+- No warnings found.
+
+<img src="documentation/testing/css-errors-stylelint.png" width="50%">
+
 #### Fix errors
 
 ---
@@ -122,15 +129,62 @@ However, the same code was copied and pasted into the same validator:
 - I was able to fix the button errors in the header and the hero section, but not the About section.
 - I was able to fix the arialabelledby issue after renaming to the id of the button that it is for.
 
-1 error bug remains across the whole website. Please see below:
+1 HTML error remains across the whole site. Please see below:
 
 <img src="documentation/testing/remaining-error-bug.png" width="50%">
+
+**CSS**
+
+Changes made to media queries screen width syntax:
+
+<img src="documentation/testing/media-query-syntax-error-1.png" width="100%">
+<img src="documentation/testing/media-query-syntax-error-2.png" width="100%">
+<img src="documentation/testing/media-query-syntax-error-3.png" width="100%">
+
+Use of shorthand syntax for aligning and justifying items:
+
+<img src="documentation/testing/place-items-syntax.png" width="100%">
+
+Addition of quotation marks to the input text string:
+
+<img src="documentation/testing/input-text-error.png" width="100%">
+
+Wrapped the url addresses in quotation marks:
+
+<img src="documentation/testing/background-url-syntax-1.png" width="50%">
+<img src="documentation/testing/background-url-syntax-2.png" width="50%">
+
+Condensed hero-text class into 1 CSS rule, rather than 2 rules at lines 44 and 218:
+
+<img src="documentation/testing/hero-text-error-1.png" width="30%">
+<img src="documentation/testing/hero-text-error-2.png" width="30%">
+<img src="documentation/testing/hero-text-fix.png" width="30%">
+
+Removed quotation marks from a single-word font family and kept them around multiple-word font family as per the [W3C documentation](https://www.w3.org/TR/CSS2/fonts.html#font-family-prop):
+
+<img src="documentation/testing/font-family-syntax-error.png" width="50%">
+
+Removed the redundant unit in shorthand syntaxes, and shortened then from 4 units to 3, for repeated measurements:
+
+<img src="documentation/testing/redundant-unit-1.png" width="50%">
+
+Removed the unit of measure when 0 was used:
+
+<img src="documentation/testing/unexpected-unit-1.png" width="50%">
+
+Changed to modern color function notion for rgba:
+
+<img src="documentation/testing/color-syntax-error.png" width="50%">
+
+Incorrect use of the comment syntax and a space was added before the comment's closing tags:
+
+<img src="documentation/testing/comment-syntax-error.png" width="50%">
 
 ### LightHouse Report
 
 ---
 
-With the use of Lighthouse in Dev Tools, I confirmed that the website is performing well, it is accessible and readible, but improvements could be made in the furture to improve these statistics.
+With the use of Lighthouse in Dev Tools, I confirmed that the website is performing well, it is accessible and readable, but improvements could be made in the furture to improve these statistics.
 
 #### HTML
 
