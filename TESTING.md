@@ -126,12 +126,12 @@ When the CSS was validated in Stylelint by copying and pasting the code into the
 
 **HTML**
 
-- I was able to fix the button errors in the header and the hero section, but not the About section.
+- I was able to fix the button errors in the header, hero section and the About sestion.
 - I was able to fix the arialabelledby issue after renaming to the id of the button that it is for.
 
-1 HTML error remains across the whole site. Please see below:
+0 HTML error remains across the whole site. Please see below:
 
-<img src="documentation/testing/remaining-error-bug.png" width="50%">
+<img src="documentation/testing/HTML-postfix.png" width="50%">
 
 **CSS**
 
