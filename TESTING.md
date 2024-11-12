@@ -180,6 +180,36 @@ Incorrect use of the comment syntax and a space was added before the comment's c
 
 <img src="documentation/testing/comment-syntax-error.png" width="50%">
 
+#### Post-fix Validation Results
+
+After completing the recommended fixes by the Stylelint validator, below are the results from both Stylelint and the W3C CSS validators:
+
+**W3C**
+
+These are the results after running the code through W3C:
+
+0 warnings.
+0 errors.
+
+<img src="documentation/testing/w3c-css-code-postfix.png" width="50%">
+
+These are the results after running the deployed site's URI through W3C:
+
+284 warnings - which are, once again, due to the pre-written CSS code in the Bootstrap CDN URI used, which is necessary for some of the site's functionality.
+0 errors.
+
+<img src="documentation/testing/w3c-css-url-postfix.png" width="50%">
+<img src="documentation/testing/w3c-css-url-postfix-warnings.png" width="50%">
+
+**Stylelint**
+
+These are the results after running the code through Stylelint:
+
+0 warnings.
+4 errors. They refer to specificity of different sections in the code which do not relate; for example the CSS rules for the i tag in the footer and the CSS rules for the i tag for the back to top button. Hence why I have not made any changes to this.
+
+<img src="documentation/testing/stylelint-postfix.png" width="50%">
+
 ### LightHouse Report
 
 ---
